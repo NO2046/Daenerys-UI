@@ -1,5 +1,13 @@
 import React from 'react'
-import ReactDom from 'react-dom'
-console.log('hi')
-console.log(React);
-console.log(ReactDom); 
+import ReactDOM from 'react-dom'
+class App extends React.Component{
+  render(){
+    return (
+      <div>
+        <div>123</div>
+      </div>
+    )
+  }
+}
+
+ReactDOM.render(<App />, document.getElementById('root'))
