@@ -7,7 +7,8 @@ class App extends React.Component{
   render(){
     return (
       <div>
-        <Icon name="666"/>
+        <Icon name="smile"/>
+        <Icon name="cake"/>
       </div>
     )
   }
