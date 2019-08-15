@@ -2,15 +2,18 @@ import React from 'react';
 import './icon.scss'
 import './importIcons.js'
 
-
-interface IconProps {
-  name: string
+export type SvgName = 'cake' | 'smile';
+export interface Props extends React.SVGProps<SVGSVGElement> {
+  name: SvgName;
 }
 
-const Icon: React.FunctionComponent<IconProps> = (props) => {
+
+const Icon: React.FC<Props> = props => {
+  const {name, ...restProps} = props
+  
   return (
-    <svg className="icon">
-      <use xlinkHref={`#${props.name}`}></use>
+    <svg className="icon" {...restProps}>
+      <use xlinkHref={`#${name}`}></use>
     </svg>
   )
 }

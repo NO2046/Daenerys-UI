@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom'
 import Button from './button'
 import Icon from './icon'
 
+
+const fn: React.MouseEventHandler = (e) => {
+  console.log((e.target as HTMLDivElement).style);
+}
+
 class App extends React.Component{
   render(){
     return (
       <div>
-        <Icon name="smile"/>
+        <Icon name="smile" onMouseEnter={fn} onMouseLeave={fn}/>
         <Icon name="cake"/>
       </div>
     )
