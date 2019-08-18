@@ -13,7 +13,7 @@ class App extends React.Component{
   render(){
     return (
       <div>
-        <Icon name="smile" onClick={fn} onMouseEnter={fn} onMouseLeave={fn}/>
+        <Icon name="smile" onClick={fn}/>
         <Icon name="cake"/>
       </div>
     )
