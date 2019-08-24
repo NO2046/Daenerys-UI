@@ -1,3 +1,3 @@
-export function formatClasses(...classes:any[]){
+export function formatClasses(...classes:string[]){
   return classes.filter(name => name ).join(' ')
 }

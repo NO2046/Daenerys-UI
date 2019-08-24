@@ -1,7 +1,7 @@
 import React from 'react';
 import './icon.scss'
 import './importIcons.js'
-import { formatClasses } from './utils'
+import { formatClasses } from '../../utils'
 
 export type SvgName = 'cake' | 'smile';
 export interface Props extends React.SVGProps<SVGSVGElement> {
