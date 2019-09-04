@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Button from './button'
 import Icon from './components/icon/icon'
 class App extends React.Component{
   render(){
@@ -12,5 +11,4 @@ class App extends React.Component{
     )
   }
 }
-export { Button }
 ReactDOM.render(<App />, document.getElementById('root'))

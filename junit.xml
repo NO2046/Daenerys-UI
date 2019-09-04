@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="9" failures="0" time="8.937">
+  <testsuite name="Icon" errors="0" failures="0" skipped="0" timestamp="2019-08-24T07:16:30" time="6.309" tests="2">
+    <testcase classname="Icon icon render successfully" name="Icon icon render successfully" time="0.027">
+    </testcase>
+    <testcase classname="Icon icon can be onClick" name="Icon icon can be onClick" time="0.076">
+    </testcase>
+  </testsuite>
+  <testsuite name="xxx" errors="0" failures="0" skipped="0" timestamp="2019-08-24T07:16:36" time="0.674" tests="1">
+    <testcase classname="xxx 1+2=3" name="xxx 1+2=3" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="formatClasses" errors="0" failures="0" skipped="0" timestamp="2019-08-24T07:16:37" time="0.253" tests="6">
+    <testcase classname="formatClasses 能根据参数返回 class" name="formatClasses 能根据参数返回 class" time="0.002">
+    </testcase>
+    <testcase classname="formatClasses 不传参数返回空字符串" name="formatClasses 不传参数返回空字符串" time="0.001">
+    </testcase>
+    <testcase classname="formatClasses 多个参数能返回多个 class" name="formatClasses 多个参数能返回多个 class" time="0">
+    </testcase>
+    <testcase classname="formatClasses 能过滤参数为 undefined 的情况" name="formatClasses 能过滤参数为 undefined 的情况" time="0">
+    </testcase>
+    <testcase classname="formatClasses 能过滤参数为 null 的情况" name="formatClasses 能过滤参数为 null 的情况" time="0.001">
+    </testcase>
+    <testcase classname="formatClasses 能过滤参数为 false 的情况" name="formatClasses 能过滤参数为 false 的情况" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>
